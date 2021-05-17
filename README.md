@@ -1,5 +1,6 @@
 # Convolutional Neural Network to Classify types of Skin Cancers
 
+This was a pair-programming excersice, the team members are Tommaso Capecchi and myself. 
 
 This project entails the implementation of a Convolutional Neural Network (CNN) which aims to identify and classify different types of skin cancers. This project uses the HAM10000 dataset, which contains dermatoscopic images. This dataset was artificially augmented to improve the system's accuracy and performance. 
 The project is implemented in Python, and the frameworks used are Pytorch, Torchvision, Numpy and Matplotlib.

@@ -1,14 +1,16 @@
-# 701_intro_to_ai_cnn
+# Convolutional Neural Network to Classify types of Skin Cancers
 
 
-What these files are:
+This project entails the implementation of a Convolutional Neural Network (CNN) which aims to identify and classify different types of skin cancers. This project uses the HAM10000 dataset, which contains dermatoscopic images. This dataset was artificially augmented to improve the system's accuracy and performance. 
+The project is implemented in Python, and the frameworks used are Pytorch, Torchvision, Numpy and Matplotlib.
 
-For the ConvNET
 
-Augmented_HAM10000_dataset.py = class which inherits the pytorch's Dataset class to load the cutsom dataset
 
-augemented_data_2.csv = csv file which is modified, only has the image names and the targets (includes all originial and augmented images - 46890 images)
+The Augmented_HAM10000_dataset file contains a class which enherits Pytorch's Dataset class to load the custom dataset. 
 
-cnn_introtoAI-py = python file where I've coded the cnn 
+The augmented_data_2 is a csv file which contains the image names and target values of the original and augmented images (46890 in total)
 
-cnn_model_final.pt = the saved cnn model with 500 epochs
+The cnn_introtoAI file contains the CNN model 
+
+The cnn_model_final file is the saved cnn model, trained on 500 epochs. 
+
